@@ -32,11 +32,13 @@ public class Main {
                 }else {
                     for ( int j=0;j<each_num;j++){
                         if (j==0){
-                            System.out.println("" +str.charAt(each_num*4-i));
+                            System.out.print(str.charAt(each_num*4-i));
                         }
-
                         else if (j==each_num){
-
+                            System.out.println(str.charAt(each_num));
+                        }
+                        else {
+                            System.out.print(" ");
                         }
                     }
                 }
